@@ -53,7 +53,7 @@ Adds a new person in the list.
 
 Deletes a person from the list.
 
-`Method #6: readPersonHistory(Long id, String measureType) => List`
+`Method #6: readPersonHistory(Long id, String measureType) => Id of Deleted Person`
 
 Obtains all measure details about a measure of a person in the list.
 
