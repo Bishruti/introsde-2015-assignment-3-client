@@ -103,7 +103,7 @@ public class Client {
             printAndSaveInLog(bufferedWriter,"Unable to find the person.");
         }
         else {
-            people.updatePerson(updatePersonInfo(firstPersonId, "Kit", "Harrington", new GregorianCalendar(1981, 11, 21)));
+            people.updatePerson(updatePersonInfo(firstPersonId, "Kit", "Harrington", new GregorianCalendar(1988,12,04)));
             printAndSaveInLog(bufferedWriter, "Successfully Updated Person with id " + firstPersonId);
             Person updatedPersonDetails = people.readPerson(firstPersonId);
             printPerson(updatedPersonDetails);
@@ -247,8 +247,7 @@ public class Client {
         }
         else {
             printAndSaveInLog(bufferedWriter, "Method #10: updatePersonMeasure(Long id, Measure m) => Measure \n Updates the " + measure + " of the person with id: " + firstPersonId);
-            personHealthHistory.get(0).setMeasureValue("100");
-            personHealthHistory.get(0).setMeasureValue("100");
+            personHealthHistory.get(0).setMeasureValue("71");
             Holder<HealthMeasureHistory> holderForHealthHistory = new Holder<HealthMeasureHistory>(personHealthHistory.get(0));
             people.updatePersonMeasure(firstPersonId, holderForHealthHistory);
             printAndSaveInLog(bufferedWriter, "Successfully Updated Measure Details for person with id: " + firstPersonId);
