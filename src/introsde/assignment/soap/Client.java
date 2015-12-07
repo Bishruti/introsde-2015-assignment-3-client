@@ -220,7 +220,9 @@ public class Client {
             printAndSaveInLog(bufferedWriter, "The count of " + measure + " history for person with id " + firstPersonId + " is " + measureCount);
             people.savePersonMeasure(firstPersonId, createNewHealthMeasureHistory(measure, "83", "Integer"));
             printAndSaveInLog(bufferedWriter, "Successfully Created Measure Details for person with id " + firstPersonId);
-            printPerson(people.readPerson(firstPersonId));
+            List<HealthMeasureHistory> personHealthHistory = people.readPersonHistory(firstPersonId, measure);
+            printAndSaveInLog(bufferedWriter, "Measure History of " + measure + " of person with id: " + firstPersonId);
+            printPersonMeasureHistoryList(personHealthHistory);
             int updatedMeasureCount = people.readPersonHistory(firstPersonId, measure).size();
             printAndSaveInLog(bufferedWriter, "The count of " + measure + " history for person with id " + firstPersonId + " is " + updatedMeasureCount);
         }
@@ -250,7 +252,9 @@ public class Client {
             Holder<HealthMeasureHistory> holderForHealthHistory = new Holder<HealthMeasureHistory>(personHealthHistory.get(0));
             people.updatePersonMeasure(firstPersonId, holderForHealthHistory);
             printAndSaveInLog(bufferedWriter, "Successfully Updated Measure Details for person with id: " + firstPersonId);
-            printPerson(people.readPerson(firstPersonId));
+            List<HealthMeasureHistory> personUpdatedHealthHistory = people.readPersonHistory(firstPersonId, measure);
+            printAndSaveInLog(bufferedWriter, "Measure History of " + measure + " of person with id: " + firstPersonId);
+            printPersonMeasureHistoryList(personUpdatedHealthHistory);
         }
     }
 

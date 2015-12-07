@@ -335,37 +335,37 @@ Measure Value Type: Integer
 Method #4: createPerson(Person p) => Person 
  Creates a new person and returns the newly created person with its assigned id
 Successfully created person with the following details.
-personId: 1302
+personId: 1303
 FirstName: Cersi
 LastName: Lannister
 Birthdate: 1988-08-10T22:00:00Z
 -------------------------------------------------------
-IdHealthProfile: 1806
-Date Registered: 2015-12-07T21:15:40.272Z
+IdHealthProfile: 1811
+Date Registered: 2015-12-07T21:23:46.084Z
 Measure Type: weight
 Measure Value: 57
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1807
-Date Registered: 2015-12-07T21:15:40.272Z
+IdHealthProfile: 1812
+Date Registered: 2015-12-07T21:23:46.084Z
 Measure Type: height
 Measure Value: 169
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1808
-Date Registered: 2015-12-07T21:15:40.272Z
+IdHealthProfile: 1813
+Date Registered: 2015-12-07T21:23:46.084Z
 Measure Type: bmi
 Measure Value: 2.1
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1809
-Date Registered: 2015-12-07T21:15:40.272Z
+IdHealthProfile: 1814
+Date Registered: 2015-12-07T21:23:46.084Z
 Measure Type: bloodpressure
 Measure Value: 118
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1810
-Date Registered: 2015-12-07T21:15:40.272Z
+IdHealthProfile: 1815
+Date Registered: 2015-12-07T21:23:46.084Z
 Measure Type: steps
 Measure Value: 91
 Measure Value Type: Integer
@@ -373,8 +373,8 @@ Measure Value Type: Integer
 
 
 Method #5: deletePerson(Int id) 
- Deletes the Person identified by 1302 from the system
-Successfully Deleted Person with id: 1302
+ Deletes the Person identified by 1303 from the system
+Successfully Deleted Person with id: 1303
 
 
 Method #6: readPersonHistory(Int id, String measureType) 
@@ -387,6 +387,12 @@ Measure Value: 100
 Measure Value Type: Integer
 -------------------------------------------------------
 Mid: 2656
+Date Registered: 2015-12-07T00:00:00Z
+Measure Type: weight
+Measure Value: 83
+Measure Value Type: Integer
+-------------------------------------------------------
+Mid: 2662
 Date Registered: 2015-12-07T00:00:00Z
 Measure Type: weight
 Measure Value: 83
@@ -415,81 +421,61 @@ Measure Value Type: Integer
 
 Method #9: savePersonMeasure(Long id, Measure m) 
  Saves a new measure weight of Person with id :1253 and archives the old value in the history
-The count of weight history for person with id 1253 is 2
+The count of weight history for person with id 1253 is 3
 Successfully Created Measure Details for person with id 1253
-personId: 1253
-FirstName: Kit
-LastName: Harrington
-Birthdate: 1981-12-20T00:00:00Z
+Measure History of weight of person with id: 1253
+Mid: 2563
+Date Registered: 2015-12-06T23:00:00Z
+Measure Type: weight
+Measure Value: 100
+Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1719
+Mid: 2656
 Date Registered: 2015-12-07T00:00:00Z
 Measure Type: weight
 Measure Value: 83
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1720
-Date Registered: 2015-12-06T23:00:00Z
-Measure Type: height
-Measure Value: 172
+Mid: 2662
+Date Registered: 2015-12-07T00:00:00Z
+Measure Type: weight
+Measure Value: 83
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1721
-Date Registered: 2015-12-06T23:00:00Z
-Measure Type: bmi
-Measure Value: 2.0
+Mid: 2668
+Date Registered: 2015-12-07T00:00:00Z
+Measure Type: weight
+Measure Value: 83
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1722
-Date Registered: 2015-12-06T23:00:00Z
-Measure Type: bloodpressure
-Measure Value: 118
-Measure Value Type: Integer
--------------------------------------------------------
-IdHealthProfile: 1723
-Date Registered: 2015-12-06T23:00:00Z
-Measure Type: steps
-Measure Value: 100
-Measure Value Type: Integer
-*******************************************************
-The count of weight history for person with id 1253 is 3
+The count of weight history for person with id 1253 is 4
 
 
 Method #10: updatePersonMeasure(Long id, Measure m) => Measure 
  Updates the weight of the person with id: 1253
 Successfully Updated Measure Details for person with id: 1253
-personId: 1253
-FirstName: Kit
-LastName: Harrington
-Birthdate: 1981-12-20T00:00:00Z
--------------------------------------------------------
-IdHealthProfile: 1719
-Date Registered: 2015-12-07T00:00:00Z
+Measure History of weight of person with id: 1253
+Mid: 2563
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: weight
 Measure Value: 100
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1720
-Date Registered: 2015-12-06T23:00:00Z
-Measure Type: height
-Measure Value: 172
+Mid: 2656
+Date Registered: 2015-12-07T00:00:00Z
+Measure Type: weight
+Measure Value: 83
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1721
-Date Registered: 2015-12-06T23:00:00Z
-Measure Type: bmi
-Measure Value: 2.0
+Mid: 2662
+Date Registered: 2015-12-07T00:00:00Z
+Measure Type: weight
+Measure Value: 83
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1722
-Date Registered: 2015-12-06T23:00:00Z
-Measure Type: bloodpressure
-Measure Value: 118
+Mid: 2668
+Date Registered: 2015-12-07T00:00:00Z
+Measure Type: weight
+Measure Value: 83
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1723
-Date Registered: 2015-12-06T23:00:00Z
-Measure Type: steps
-Measure Value: 100
-Measure Value Type: Integer
-*******************************************************
