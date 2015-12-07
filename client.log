@@ -1,39 +1,42 @@
 
 
+WSDL URL: https://introsde-assignment3-ehealth.herokuapp.com/ws/people?wsdl
+
+
 Method #1: readPersonList() => List 
  Lists all the people in the database and their current measures
 List of people in this database: 
 personId: 1253
-FirstName: Jon
-LastName: Snow
-Birthdate: 1988-12-21T00:00:00+01:00
+FirstName: Kit
+LastName: Harrington
+Birthdate: 1981-12-20T00:00:00Z
 -------------------------------------------------------
 IdHealthProfile: 1719
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-07T00:00:00Z
 Measure Type: weight
-Measure Value: 71
+Measure Value: 100
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1720
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: height
 Measure Value: 172
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1721
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bmi
 Measure Value: 2.0
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1722
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bloodpressure
 Measure Value: 118
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1723
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: steps
 Measure Value: 100
 Measure Value Type: Integer
@@ -41,34 +44,34 @@ Measure Value Type: Integer
 personId: 1255
 FirstName: Edward
 LastName: Cullen
-Birthdate: 1987-02-01T00:00:00+01:00
+Birthdate: 1987-01-31T23:00:00Z
 -------------------------------------------------------
 IdHealthProfile: 1729
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: weight
 Measure Value: 78
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1730
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: height
 Measure Value: 177
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1731
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bmi
 Measure Value: 2.1
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1732
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bloodpressure
 Measure Value: 120
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1733
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: steps
 Measure Value: 111
 Measure Value Type: Integer
@@ -76,34 +79,34 @@ Measure Value Type: Integer
 personId: 1256
 FirstName: Isabella
 LastName: Swan
-Birthdate: 1989-12-05T00:00:00+01:00
+Birthdate: 1989-12-04T23:00:00Z
 -------------------------------------------------------
 IdHealthProfile: 1734
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: weight
 Measure Value: 48
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1735
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: height
 Measure Value: 160
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1736
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bmi
 Measure Value: 2.2
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1737
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bloodpressure
 Measure Value: 119
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1738
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: steps
 Measure Value: 99
 Measure Value Type: Integer
@@ -111,34 +114,34 @@ Measure Value Type: Integer
 personId: 1257
 FirstName: Alice
 LastName: Cullen
-Birthdate: 1989-06-15T00:00:00+02:00
+Birthdate: 1989-06-14T22:00:00Z
 -------------------------------------------------------
 IdHealthProfile: 1739
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: weight
 Measure Value: 49
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1740
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: height
 Measure Value: 163
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1741
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bmi
 Measure Value: 2.1
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1742
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bloodpressure
 Measure Value: 117
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1743
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: steps
 Measure Value: 114
 Measure Value Type: Integer
@@ -146,34 +149,34 @@ Measure Value Type: Integer
 personId: 1258
 FirstName: Robb
 LastName: Stark
-Birthdate: 1987-07-17T00:00:00+02:00
+Birthdate: 1987-07-16T22:00:00Z
 -------------------------------------------------------
 IdHealthProfile: 1744
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: weight
 Measure Value: 77
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1745
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: height
 Measure Value: 171
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1746
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bmi
 Measure Value: 2.2
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1747
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bloodpressure
 Measure Value: 121
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1748
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: steps
 Measure Value: 112
 Measure Value Type: Integer
@@ -181,34 +184,34 @@ Measure Value Type: Integer
 personId: 1259
 FirstName: Jacob
 LastName: Black
-Birthdate: 1988-08-11T00:00:00+02:00
+Birthdate: 1988-08-10T22:00:00Z
 -------------------------------------------------------
 IdHealthProfile: 1749
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: weight
 Measure Value: 80
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1750
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: height
 Measure Value: 169
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1751
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bmi
 Measure Value: 2.1
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1752
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bloodpressure
 Measure Value: 119
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1753
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: steps
 Measure Value: 113
 Measure Value Type: Integer
@@ -216,34 +219,34 @@ Measure Value Type: Integer
 personId: 1260
 FirstName: Jasper
 LastName: Cullen
-Birthdate: 1988-08-11T00:00:00+02:00
+Birthdate: 1988-08-10T22:00:00Z
 -------------------------------------------------------
 IdHealthProfile: 1754
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: weight
 Measure Value: 76
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1755
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: height
 Measure Value: 173
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1756
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bmi
 Measure Value: 2.3
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1757
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bloodpressure
 Measure Value: 120
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1758
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: steps
 Measure Value: 115
 Measure Value Type: Integer
@@ -253,36 +256,36 @@ Measure Value Type: Integer
 Method #2: readPerson(Long id) => Person 
  Gives all the personal information plus current measures of person with id: 1253
 personId: 1253
-FirstName: Jon
-LastName: Snow
-Birthdate: 1988-12-21T00:00:00+01:00
+FirstName: Kit
+LastName: Harrington
+Birthdate: 1981-12-20T00:00:00Z
 -------------------------------------------------------
 IdHealthProfile: 1719
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-07T00:00:00Z
 Measure Type: weight
-Measure Value: 71
+Measure Value: 100
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1720
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: height
 Measure Value: 172
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1721
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bmi
 Measure Value: 2.0
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1722
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bloodpressure
 Measure Value: 118
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1723
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: steps
 Measure Value: 100
 Measure Value Type: Integer
@@ -295,34 +298,34 @@ Successfully Updated Person with id 1253
 personId: 1253
 FirstName: Kit
 LastName: Harrington
-Birthdate: 1981-12-21T00:00:00+01:00
+Birthdate: 1981-12-20T00:00:00Z
 -------------------------------------------------------
 IdHealthProfile: 1719
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-07T00:00:00Z
 Measure Type: weight
-Measure Value: 71
+Measure Value: 100
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1720
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: height
 Measure Value: 172
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1721
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bmi
 Measure Value: 2.0
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1722
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bloodpressure
 Measure Value: 118
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1723
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: steps
 Measure Value: 100
 Measure Value Type: Integer
@@ -332,37 +335,37 @@ Measure Value Type: Integer
 Method #4: createPerson(Person p) => Person 
  Creates a new person and returns the newly created person with its assigned id
 Successfully created person with the following details.
-personId: 1301
+personId: 1302
 FirstName: Cersi
 LastName: Lannister
-Birthdate: 1988-08-11T00:00:00+02:00
+Birthdate: 1988-08-10T22:00:00Z
 -------------------------------------------------------
-IdHealthProfile: 1801
-Date Registered: 2015-12-07T18:17:31.300+01:00
+IdHealthProfile: 1806
+Date Registered: 2015-12-07T21:15:40.272Z
 Measure Type: weight
 Measure Value: 57
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1802
-Date Registered: 2015-12-07T18:17:31.300+01:00
+IdHealthProfile: 1807
+Date Registered: 2015-12-07T21:15:40.272Z
 Measure Type: height
 Measure Value: 169
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1803
-Date Registered: 2015-12-07T18:17:31.300+01:00
+IdHealthProfile: 1808
+Date Registered: 2015-12-07T21:15:40.272Z
 Measure Type: bmi
 Measure Value: 2.1
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1804
-Date Registered: 2015-12-07T18:17:31.300+01:00
+IdHealthProfile: 1809
+Date Registered: 2015-12-07T21:15:40.272Z
 Measure Type: bloodpressure
 Measure Value: 118
 Measure Value Type: Integer
 -------------------------------------------------------
-IdHealthProfile: 1805
-Date Registered: 2015-12-07T18:17:31.300+01:00
+IdHealthProfile: 1810
+Date Registered: 2015-12-07T21:15:40.272Z
 Measure Type: steps
 Measure Value: 91
 Measure Value Type: Integer
@@ -370,17 +373,23 @@ Measure Value Type: Integer
 
 
 Method #5: deletePerson(Int id) 
- Deletes the Person identified by 1301 from the system
-Successfully Deleted Person with id: 1301
+ Deletes the Person identified by 1302 from the system
+Successfully Deleted Person with id: 1302
 
 
 Method #6: readPersonHistory(Int id, String measureType) 
  Returns the list of values (the history) of weight of person with id: 1253
 Measure History of weight of person with id: 1253
 Mid: 2563
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: weight
-Measure Value: 71
+Measure Value: 100
+Measure Value Type: Integer
+-------------------------------------------------------
+Mid: 2656
+Date Registered: 2015-12-07T00:00:00Z
+Measure Type: weight
+Measure Value: 83
 Measure Value Type: Integer
 -------------------------------------------------------
 
@@ -397,53 +406,53 @@ weight
 Method #8: readPersonMeasure(Int id, String measureType, Int mid) 
  Returns the value of weight with Measure History id: 2563 of person with id: 1253
 Mid: 2563
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: weight
-Measure Value: 71
+Measure Value: 100
 Measure Value Type: Integer
 -------------------------------------------------------
 
 
 Method #9: savePersonMeasure(Long id, Measure m) 
  Saves a new measure weight of Person with id :1253 and archives the old value in the history
-The count of weight history for person with id 1253 is 1
+The count of weight history for person with id 1253 is 2
 Successfully Created Measure Details for person with id 1253
 personId: 1253
 FirstName: Kit
 LastName: Harrington
-Birthdate: 1981-12-21T00:00:00+01:00
+Birthdate: 1981-12-20T00:00:00Z
 -------------------------------------------------------
 IdHealthProfile: 1719
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-07T00:00:00Z
 Measure Type: weight
 Measure Value: 83
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1720
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: height
 Measure Value: 172
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1721
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bmi
 Measure Value: 2.0
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1722
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bloodpressure
 Measure Value: 118
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1723
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: steps
 Measure Value: 100
 Measure Value Type: Integer
 *******************************************************
-The count of weight history for person with id 1253 is 2
+The count of weight history for person with id 1253 is 3
 
 
 Method #10: updatePersonMeasure(Long id, Measure m) => Measure 
@@ -452,34 +461,34 @@ Successfully Updated Measure Details for person with id: 1253
 personId: 1253
 FirstName: Kit
 LastName: Harrington
-Birthdate: 1981-12-21T00:00:00+01:00
+Birthdate: 1981-12-20T00:00:00Z
 -------------------------------------------------------
 IdHealthProfile: 1719
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-07T00:00:00Z
 Measure Type: weight
 Measure Value: 100
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1720
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: height
 Measure Value: 172
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1721
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bmi
 Measure Value: 2.0
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1722
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: bloodpressure
 Measure Value: 118
 Measure Value Type: Integer
 -------------------------------------------------------
 IdHealthProfile: 1723
-Date Registered: 2015-12-07T00:00:00+01:00
+Date Registered: 2015-12-06T23:00:00Z
 Measure Type: steps
 Measure Value: 100
 Measure Value Type: Integer

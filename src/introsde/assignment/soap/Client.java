@@ -32,7 +32,8 @@ public class Client {
         File log = new File("././client.log");
         FileWriter fileWriter = new FileWriter(log.getAbsoluteFile());
         bufferedWriter = new BufferedWriter(fileWriter);
-
+        printAndSaveInLog(bufferedWriter, "\n");
+        printAndSaveInLog(bufferedWriter, "WSDL URL: " + service.getWSDLDocumentLocation());
         personList = getListOfPerson(people);
         getPersonDetail(people,personList);
         updateExistingPerson(people);
