@@ -16,6 +16,7 @@ Possess source code files utilized in this application.
 This folder consists of the java classes which are responsible to implement the body of the SOAP message. The class in this folder are responsible to perform various operations like `read`, `write`, `update` and `delete` as well as pass the parameters for querying and give the output in appropriate parameters. `PeopleService.java` is responsible to make communication with the server. Similarly, `package-info.java` gives the information on `namespace` and `packages`.
 
 *Client.java*
+
 Implements various methods that send requests to the server.
 
 *build.xml*
@@ -27,6 +28,7 @@ It is a low-level mechanism to package. It compiles and archives source code int
 Contains description of the dependencies of a module, its published artifacts and its configurations.
 
 *client.log*
+
 Logs the output acquired from the server by the client.
 
 #### Supported Database Queries.
