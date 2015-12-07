@@ -1,7 +1,6 @@
 
 package introsde.assignment.soap.ws;
 
-import java.util.List;
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
 import javax.jws.WebResult;
@@ -11,6 +10,7 @@ import javax.xml.ws.Action;
 import javax.xml.ws.Holder;
 import javax.xml.ws.RequestWrapper;
 import javax.xml.ws.ResponseWrapper;
+import java.util.List;
 
 
 /**
@@ -25,18 +25,6 @@ import javax.xml.ws.ResponseWrapper;
 })
 public interface People {
 
-
-    /**
-     * 
-     * @return
-     *     returns java.util.List<introsde.assignment.soap.ws.Person>
-     */
-    @WebMethod
-    @WebResult(name = "person", targetNamespace = "")
-    @RequestWrapper(localName = "readPersonList", targetNamespace = "http://ws.soap.assignment.introsde/", className = "introsde.assignment.soap.ws.ReadPersonList")
-    @ResponseWrapper(localName = "readPersonListResponse", targetNamespace = "http://ws.soap.assignment.introsde/", className = "introsde.assignment.soap.ws.ReadPersonListResponse")
-    @Action(input = "http://ws.soap.assignment.introsde/People/readPersonListRequest", output = "http://ws.soap.assignment.introsde/People/readPersonListResponse")
-    public List<Person> readPersonList();
 
     /**
      * 
@@ -64,6 +52,18 @@ public interface People {
     public void updatePerson(
         @WebParam(name = "person", targetNamespace = "", mode = WebParam.Mode.INOUT)
         Holder<Person> person);
+
+    /**
+     * 
+     * @return
+     *     returns java.util.List<introsde.assignment.soap.ws.Person>
+     */
+    @WebMethod
+    @WebResult(name = "person", targetNamespace = "")
+    @RequestWrapper(localName = "readPersonList", targetNamespace = "http://ws.soap.assignment.introsde/", className = "introsde.assignment.soap.ws.ReadPersonList")
+    @ResponseWrapper(localName = "readPersonListResponse", targetNamespace = "http://ws.soap.assignment.introsde/", className = "introsde.assignment.soap.ws.ReadPersonListResponse")
+    @Action(input = "http://ws.soap.assignment.introsde/People/readPersonListRequest", output = "http://ws.soap.assignment.introsde/People/readPersonListResponse")
+    public List<Person> readPersonList();
 
     /**
      * 

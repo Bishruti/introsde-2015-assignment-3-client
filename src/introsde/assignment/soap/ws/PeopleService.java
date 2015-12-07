@@ -1,14 +1,10 @@
 
 package introsde.assignment.soap.ws;
 
+import javax.xml.namespace.QName;
+import javax.xml.ws.*;
 import java.net.MalformedURLException;
 import java.net.URL;
-import javax.xml.namespace.QName;
-import javax.xml.ws.Service;
-import javax.xml.ws.WebEndpoint;
-import javax.xml.ws.WebServiceClient;
-import javax.xml.ws.WebServiceException;
-import javax.xml.ws.WebServiceFeature;
 
 
 /**
@@ -17,7 +13,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "PeopleService", targetNamespace = "http://ws.soap.assignment.introsde/", wsdlLocation = "http://localhost:3100/ws/people?wsdl")
+@WebServiceClient(name = "PeopleService", targetNamespace = "http://ws.soap.assignment.introsde/", wsdlLocation = "https://introsde-assignment3-ehealth.herokuapp.com/ws/people?wsdl")
 public class PeopleService
     extends Service
 {
@@ -30,7 +26,7 @@ public class PeopleService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://localhost:3100/ws/people?wsdl");
+            url = new URL("https://introsde-assignment3-ehealth.herokuapp.com/ws/people?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }
